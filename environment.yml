@@ -1,5 +1,12 @@
-name: xrviz_env
+name: explore_xrviz
 channels:
   - conda-forge
 dependencies:
-  - xrviz
+  - nodejs
+  - jupyter=1.0.0
+  - jupyterlab=1.0.2
+  - pip
+  - pip:
+       - "--editable=git+https://github.com/intake/xrviz@master#egg=explore_xrviz"
+  - metpy
+  - geoviews

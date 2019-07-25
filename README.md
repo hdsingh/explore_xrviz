@@ -8,11 +8,9 @@
 2. Create conda environment and activate it.
    > `conda env create -f environment.yml`
 
-   > `conda activate xrviz_env`
+   > `conda activate explore_xrviz`
 3. Run the command
    > `python lakes.py`
 
 
 ![Dashboard](dashboard.png)
-
-To visualise any other Xarray Dataset/DataArray replace `ds = xr.open_dataset('data/great_lakes.nc')` with your own or remote data.
